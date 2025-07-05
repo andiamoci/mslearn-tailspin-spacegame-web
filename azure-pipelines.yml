@@ -9,7 +9,7 @@ variables:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET SDK 8.x'
+  displayName: 'Use .NET SDK 8.x_'
   inputs:
     packageType: sdk
     version: '8.x'
