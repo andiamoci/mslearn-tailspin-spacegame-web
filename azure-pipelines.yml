@@ -20,7 +20,7 @@ steps:
     versionSpec: '20.x'
 
 - task: Npm@1
-  displayName: 'Run npm install2'
+  displayName: 'Run npm install3'
   inputs:
     verbose: false
 
