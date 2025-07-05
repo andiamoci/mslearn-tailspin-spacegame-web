@@ -9,6 +9,10 @@ steps:
   displayName: 'Use .NET SDK 6.x'
   inputs:
     version: '6.x'
+- powershell: |
+    npm install --global --production windows-build-tools
+  displayName: 'Install Windows build tools'
+  condition: eq( variables['Agent.OS'], 'Windows_NT' )
 
 - task: Npm@1
   displayName: 'Run npm install'
