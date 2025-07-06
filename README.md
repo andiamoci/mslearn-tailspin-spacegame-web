@@ -1,4 +1,4 @@
-
+[![Build Status](https://dev.azure.com/aysanay/SpaceGameGitWork/_apis/build/status%2Fandiamoci.mslearn-tailspin-spacegame-web?branchName=main)](https://dev.azure.com/aysanay/SpaceGameGitWork/_build/latest?definitionId=14&branchName=main)
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
